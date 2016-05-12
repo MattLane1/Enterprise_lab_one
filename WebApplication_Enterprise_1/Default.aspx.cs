@@ -11,12 +11,17 @@ namespace WebApplication_Enterprise_1
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            HelloLabel.Text = "Hello, world!";
+     
         }
 
         protected void SubmitButton_Click(object sender, EventArgs e)
         {
-            HelloLabel.Text = "Goodbye";
+       
+        }
+
+        protected void SubmitButton_Click1(object sender, EventArgs e)
+        {
+            FullNameTextBox.Text = FirstNameTextBox.Text.ToString() + "  " + LastNameTextBox.Text.ToString();
         }
     }
 }
