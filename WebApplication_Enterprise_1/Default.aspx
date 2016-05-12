@@ -75,16 +75,16 @@
             <div>
                 <div class="form-group">
                     <asp:Label ID="FirstNameLabel" runat="server" Text="First Name"></asp:Label>
-                    <asp:TextBox CssClass="form-Control" ID="FirstNameTextBox" runat="server" />
+                    <asp:TextBox CssClass="form-Control" ID="FirstNameTextBox" runat="server" required ="true" />
                 </div>
             </div>
             <div class="form-group">
                 <asp:Label ID="LastNameLabel" runat="server" Text="Last Name"></asp:Label>
-                <asp:TextBox CssClass="form-Control" ID="LastNameTextBox" runat="server" />
+                <asp:TextBox CssClass="form-Control" ID="LastNameTextBox" runat="server" required ="true"/>
             </div>
             <div class="form-group">
                 <asp:Label ID="AgeLabel" runat="server" Text="Age"></asp:Label>
-                <asp:TextBox CssClass="form-Control" ID="AgeTextBox" runat="server" />
+                <asp:TextBox CssClass="form-Control" ID="AgeTextBox" runat="server" required ="true"/>
             </div>
             <asp:Button CssClass="btn btn-primary" ID="SubmitButton" runat="server" Text="Submit" OnClick="SubmitButton_Click1" />
             <br />
