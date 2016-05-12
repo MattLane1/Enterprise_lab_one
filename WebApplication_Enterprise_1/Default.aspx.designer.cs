@@ -76,6 +76,15 @@ namespace WebApplication_Enterprise_1 {
         protected global::System.Web.UI.WebControls.TextBox AgeTextBox;
         
         /// <summary>
+        /// AgeRangeValidator control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RangeValidator AgeRangeValidator;
+        
+        /// <summary>
         /// SubmitButton control.
         /// </summary>
         /// <remarks>
